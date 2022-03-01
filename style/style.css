@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    src: url("font/UbuntuCondensed-Regular.ttf");
+}
+
 body{
     font-family: 'Ubuntu Condensed', sans-serif;
     background-color: #f6f8f9;

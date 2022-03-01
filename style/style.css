@@ -10,14 +10,17 @@ body{
     background-color: grey; /*  DA ELIMINARE*/
 }
 /* COMMON */
+.white-bg{
+    background-color: #ffffff;
+}
+
 .container{
     width: 75vw;
     margin: 0 auto;
+    padding: 10px 25px 20px;
 }
 /* HEADER  */
 .head{
-    background-color: #ffffff;
-
     height: 60px;
     line-height: 60px;
 
@@ -32,4 +35,27 @@ body{
 .logo{
     vertical-align: middle;
     height: 90%;
+}
+
+/* NAV  */
+nav .container{
+    margin-top: 30px;
+}
+
+nav .button{
+    margin-right: 5px;
+    padding: 6px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.button.task{
+    color: white;
+    background-color: #47adf1;
+}
+
+.button.selection{
+    color: lightgray;
+    background-color: white;
 }

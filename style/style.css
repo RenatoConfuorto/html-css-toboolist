@@ -10,14 +10,12 @@ body{
     background-color: grey; /*  DA ELIMINARE*/
 }
 /* COMMON */
-.white-bg{
-    background-color: #ffffff;
-}
 
 .container{
     width: 75vw;
     margin: 0 auto;
     padding: 10px 25px 20px;
+    background-color: #ffffff;
 }
 /* HEADER  */
 .head{
@@ -25,6 +23,7 @@ body{
     line-height: 60px;
 
     padding-left: 15px;
+    background-color: #ffffff;
 }
 
 .head > h1{
@@ -58,4 +57,34 @@ nav .button{
 .button.selection{
     color: lightgray;
     background-color: white;
+}
+
+/* MAIN  */
+.list{
+    list-style-type: none;
+}
+.main-list > li{
+    font-size: 14px;
+}
+.circle{
+    font-size: 9px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.check:before{
+    content: '\2713';
+}
+
+.circle.check{
+    border-color: green;
+    color: green;
+}
+
+.cross:before{
+    content: '\2717';
+}
+.circle.cross{
+    border-color: red;
+    color: red;
 }

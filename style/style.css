@@ -6,4 +6,30 @@
 
 body{
     font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #f6f8f9;
+    background-color: grey; /*  DA ELIMINARE*/
+}
+/* COMMON */
+.container{
+    width: 75vw;
+    margin: 0 auto;
+}
+/* HEADER  */
+.head{
+    background-color: #ffffff;
+
+    height: 60px;
+    line-height: 60px;
+
+    padding-left: 15px;
+}
+
+.head > h1{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.logo{
+    vertical-align: middle;
+    height: 90%;
 }
